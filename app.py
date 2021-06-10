@@ -43,7 +43,7 @@ def name():
             elif k%256 == 32:
                 # SPACE pressed
                 img_name = name1+".png"
-                path='D:\\Face-Based-Attendance\\Training images'
+                path='C:\nitin\IHA_INTERN\FRAMS\Training images'
                 cv2.imwrite(os.path.join(path,img_name), frame)
                 print("{} written!".format(img_name))
                 
